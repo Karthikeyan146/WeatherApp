@@ -33,19 +33,19 @@ else{
 
 
         if(data.weather[0].main == "Clouds"){
-            icon.src ="./weather-img/cloud.png"
+            icon.src ="./weatherimg/cloud.png"
         }
         else if(data.weather[0].main == "Clear"){
-            icon.src ="./weather-img/clear.png"
+            icon.src ="./weatherimg/clear.png"
         }
         else if(data.weather[0].main == "Rain"){
-            icon.src ="./weather-img/rain.png"
+            icon.src ="./weatherimg/rain.png"
         }
         else if(data.weather[0].main == "Snow"){
-            icon.src ="./weather-img/snow.png"
+            icon.src ="./weatherimg/snow.png"
         }
         else if(data.weather[0].main == "Mist"){
-            icon.src ="./weather-img/mist.png"
+            icon.src ="./weatherimg/mist.png"
         }
     
         document.querySelector(".body").style.display = "block";
