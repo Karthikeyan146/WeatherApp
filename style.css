@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins', sans-serif;
+}
+html{
+    background-image: url("./weatherimg/bbg2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 69%;
+}
+
+.box{
+    width:80%;
+    max-width: 470px;
+    margin: 80px auto 0;
+    border-radius: 20px;
+    text-align:center;
+    padding: 40px 35px;
+   background-image: url("./weatherimg/bg2.jpg");
+   background-size: 100%;
+   background-position-x:30%;
+   background-position-y:95%;
+   
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input{
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin: 0%;
+    height: 37px; 
+    width: 85%;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.head button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.head button i{
+    font-size: 30px;
+    border-radius: 20px;
+    color: white;
+
+   
+ }
+ .head button i:hover{
+     color:gray;
+ }
+.glass{
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    max-width: auto;
+    border-radius: 20px;
+}
+ .centercontent img{
+    width: 40%; 
+    margin: 40px auto 40px;
+ }
+ .centercontent h1{
+     font-size: 70px;
+     font-weight: 500;
+     color: rgb(255, 255, 255);
+ }
+.centercontent h2{
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: black;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+
+.humi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom img{
+    margin-right: 10px;
+    mix-blend-mode: multiply;
+    width:25%;
+}
+
+.bottom .humi h3{
+    font-size: 30px;
+}
+.body{
+    display: none;
+}
+.error img{
+    width: 60%;
+    margin: 60px auto 50px;
+}
+.error h3{
+    font-weight: 00;
+    font-size: 40px;
+}
+.error h3 i{
+    color:rgb(180, 3, 3);
+}
+.error{
+    display: none;
+}
